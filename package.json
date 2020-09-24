@@ -1,0 +1,19 @@
+{
+  "name": "checkpromise",
+  "version": "1.0.0",
+  "description": "check promise status",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^3.0.2",
+    "require-directory": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node spec",
+    "install": "node-gyp rebuild"
+  },
+  "author": "Liuyl",
+  "license": "ISC",
+  "gypfile": true
+}
